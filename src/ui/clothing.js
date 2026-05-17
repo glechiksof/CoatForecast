@@ -1,5 +1,4 @@
 import { getClothing } from '../logic/clothing.js'
-import { weatherLabel } from '../logic/forecast.js'
 
 const ICONS = {
   'heavy parka': '🧥',

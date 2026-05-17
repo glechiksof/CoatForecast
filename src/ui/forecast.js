@@ -1,5 +1,4 @@
 import { buildHourlyList, weatherLabel } from '../logic/forecast.js'
-import { renderClothing } from './clothing.js'
 
 export function renderForecast(container, hourly, cityName, onHourSelect) {
   container.innerHTML = ''
