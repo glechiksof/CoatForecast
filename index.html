@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoatForecast</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CoatForecast</h1>
+      <p class="tagline">Weather forecast + what to wear</p>
+    </header>
+
+    <main>
+      <section class="search">
+        <input
+          id="city-input"
+          type="text"
+          placeholder="Enter city name…"
+          autocomplete="off"
+        />
+        <button id="search-btn">Search</button>
+        <ul id="suggestions" class="suggestions" hidden></ul>
+      </section>
+
+      <section id="forecast-section" class="section" hidden>
+        <h2>Forecast</h2>
+        <p id="city-label" class="city-label"></p>
+        <div id="forecast-cards" class="forecast-cards"></div>
+      </section>
+
+      <section id="clothing-section" class="section" hidden>
+        <h2>What to wear</h2>
+        <p id="clothing-hour-label" class="hour-label"></p>
+        <div id="clothing-items" class="clothing-items"></div>
+      </section>
+    </main>
+
+    <footer>
+      <span id="env-badge" class="env-badge"></span>
+      <span>Data: <a href="https://open-meteo.com" target="_blank">Open-Meteo</a></span>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
