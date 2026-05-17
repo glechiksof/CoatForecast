@@ -1,6 +1,6 @@
 # CoatForecast
 
-Weather forecast app with clothing recommendations. Select a city, pick an hour, and see what to wear based on real-time conditions.
+Real-time weather forecast and clothing advisor. Pick a city and hour — CoatForecast tells you exactly what to wear.
 
 ## Features
 
