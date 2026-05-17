@@ -71,7 +71,7 @@ async function triggerSearch() {
   try {
     const cities = await searchCities(q)
     if (cities.length) loadForecast(cities[0])
-  } catch (err) {
+  } catch {
     alert('Could not find city. Try again.')
   }
 }
@@ -83,7 +83,7 @@ async function loadForecast(city) {
     renderForecast(forecastCards, data.hourly, city.name, onHourSelect)
     forecastSection.hidden = false
     clothingSection.hidden = true
-  } catch (err) {
+  } catch {
     alert('Failed to load forecast.')
   }
 }
