@@ -1,5 +1,7 @@
 # CoatForecast
 
+[![CI/CD Pipeline](https://github.com/glechiksof/CoatForecast/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/glechiksof/CoatForecast/actions/workflows/ci-cd.yml)
+
 Real-time weather forecast and clothing advisor. Pick a city and hour — CoatForecast tells you exactly what to wear.
 
 ## Features
