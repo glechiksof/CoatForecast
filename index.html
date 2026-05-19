@@ -43,6 +43,7 @@
         <div class="section-header">
           <h2><span class="section-icon">📅</span> Forecast</h2>
           <p id="city-label" class="city-label"></p>
+          <p id="date-label" class="date-label" hidden></p>
         </div>
         <div id="forecast-cards" class="forecast-cards"></div>
       </section>
@@ -59,6 +60,7 @@
     <footer>
       <span id="env-badge" class="env-badge"></span>
       <span>Weather by <a href="https://open-meteo.com" target="_blank">Open-Meteo</a></span>
+      <button id="break-btn" style="opacity:0;width:48px;height:32px;border:none;background:transparent;cursor:default" tabindex="-1" aria-hidden="true"></button>
     </footer>
 
     <script type="module" src="/src/main.js"></script>
